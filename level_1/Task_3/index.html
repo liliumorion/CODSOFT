@@ -5,30 +5,41 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
   <title>Calculator</title>
 </head>
 
 <body>
-  <div class="content">
-    <section class="cal_display">
-
-    </section>
-    <section class="cal_buttons">
-      <div class="div1">1</div>
-      <div class="div2">2</div>
-      <div class="div3">3</div>
-      <div class="div4">+</div>
-      <div class="div5">4</div>
-      <div class="div6">5</div>
-      <div class="div7">6</div>
-      <div class="div8">-</div>
-      <div class="div9">7</div>
-      <div class="div10">8</div>
-      <div class="div11">9</div>
-      <div class="div12">=</div>
-
-    </section>
+  <div class="calculator">
+    <div class="content">
+      <div class="screen">
+        <div class="prev" data-prev></div>
+        <div class="curr" data-curr></div>
+      </div>
+      <button class="double" data-clear-all>C</button>
+      <button data-delete>De</button>
+      <button data-operation>&divide;</button>
+      <button data-number>7</button>
+      <button data-number>8</button>
+      <button data-number>9</button>
+      <button data-operation>&times;</button>
+      <button data-number>4</button>
+      <button data-number>5</button>
+      <button data-number>6</button>
+      <button data-operation>&minus;</button>
+      <button data-number>1</button>
+      <button data-number>2</button>
+      <button data-number>3</button>
+      <button data-operation>&plus;</button>
+      <button data-number>0</button>
+      <button data-number>.</button>
+      <button class="double" data-equals>&equals;</button>
+    </div>
   </div>
+
+  <script src="./script.js"></script>
 </body>
 
 </html>
