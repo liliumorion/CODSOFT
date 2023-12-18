@@ -26,19 +26,22 @@ body {
   grid-template-rows: minmax(120px, auto) repeat(5, 1fr);
   width: 400px;
 }
+
 button {
   cursor: pointer;
-  border: solid 1px white;
+  border: 1px solid white;
   outline: none;
 }
+
 button:hover {
   background-color: rgb(41, 170, 170);
 }
+
 .double {
   grid-column: span 2;
 }
 .screen {
-  padding: 1rem;
+  padding: 1rem; 
   color: white;
   background-color: #242424;
   font-family: "Share Tech Mono", monospace;
@@ -49,13 +52,18 @@ button:hover {
   word-wrap: break-word;
   word-break: break-all;
 }
-.prev,
-.curr {
-  background-color: #242424;
+
+.previous-operand,
+.current-operand {
   display: grid;
   justify-content: right;
 }
-.curr {
-  font-size: 2.5rem;
-}
 
+[data-operation], [data-equals] {
+  color:white;
+  background-color: teal;
+}
+[data-operation]:hover, [data-equals]:hover {
+  color:teal;
+  background-color: #f97316;
+}
