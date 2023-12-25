@@ -15,30 +15,27 @@ function HeroSection() {
           id="content"
           className="flex max-w-3xl flex-col justify-center mx-auto xl:mx-0"
         >
-          <span className="text-sm font-semibold mb-4 uppercase -tracking-tighter text-primary">
+          <span className="text-sm font-semibold mb-4 uppercase -tracking-tighter text-red-700">
             Front-end Web Developer
           </span>
-          <h1 className="text-4xl md:text-7xl xl:leading-[80px] tracking-[-2px] font-bold">
-            Hello, my name is Hadia Djadallah
+          <h1 className="text-4xl md:text-6xl xl:leading-[80px] tracking-[-2px] font-bold">
+            Hello, I'm Hadia 
           </h1>
           <p className="text-muted-foreground text-lg my-4 font-light max-w-lg mx-auto xl:mx-0">
-            Welcome to my little world of wonders 🚀. <br/>I&apos;m a Re:coded &
-            Flatiron graduate, and I hold a master's degree in microbial
-            biotechnology. i'm also a former pharmacist, which means I'm
-            always ready to learn and create new things.
+            A passionate frontend web developer 🚀. <br/>I&apos;m a Re:coded graduate, where I gained experience of building cool websites using JavaScript/ Reactjs/ Nodejs/ Nextjs and much more. Reach out to me if you wanna create an amazing website.
           </p>
           <div
             id="buttons"
             className="flex flex-col gap-y-3 md:flex-row gap-x-3 mx-auto xl:mx-0 mb-2 md:mb-6"
           >
             <Link href="/#contact">
-              <button className="flex gap-2">
+              <button className="flex justify-center items-center gap-2 rounded-full border-2 border-red-700 hover:text-white hover:bg-red-700   p-3">
                 Contact Me <LuSend />
               </button>
             </Link>
-            <Link href="/cv/HadiaDjadallahCv.pdf" download>
-              <button className="flex gap-2">
-                Download CV <LuDownload />
+            <Link href="/assets/HadiaDjadallah.pdf" download>
+              <button className="flex gap-2 rounded-full border-2 border-red-700 hover:text-white hover:bg-red-700  p-3">
+                See my resume <LuDownload />
               </button>
             </Link>
           </div>
