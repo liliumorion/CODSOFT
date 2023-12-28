@@ -1,23 +1,31 @@
 const links = [
   {
-    path: "/#home",
-    name: "Home",
-  },
-  {
-    path: "/#about",
-    name: "About",
-  },
-  {
     path: "/#skills",
-    name: "My Skills",
+    name: "Skills",
+  },
+  {
+    path: "/#openSource",
+    name: "Open Source",
   },
   {
     path: "/#projects",
-    name: "My Projects",
+    name: "Projects",
+  },
+  {
+    path: "/#achievements",
+    name: "Achievements",
+  },
+  {
+    path: "/#blogs",
+    name: "Blogs",
+  },
+  {
+    path: "/#talks",
+    name: "Talks",
   },
   {
     path: "/#contact",
-    name: "Contact",
-  },
+    name: "Contact Me",
+  }
 ];
 export default links;

@@ -6,7 +6,7 @@ function Footer() {
     <div className="container mx-auto">
       <div className="flex flex-col justify-between items-center gap-2">
         <Socials/>
-        <div className="text-muted-foreground">
+        <div>
          2023&copy; Copyright | CODSOFT.
       </div>
       </div>

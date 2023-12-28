@@ -20,7 +20,9 @@ const Socials = () => {
   return (
     <div className="flex gap-x-6 mx-auto xl:mx-0">
       {icons.map((icon, index)=>(
-        <Link className="text-2xl  hover:text-red-700 transition-all" href={icon.path} key={index}>{icon.name}</Link>
+        <div className="rounded-full bg-red-800 hover:bg-black p-4 text-2xl text-white hover:text-red-800">
+          <Link href={icon.path} key={index}>{icon.name}</Link>
+        </div>
       ))}
     </div>
   )

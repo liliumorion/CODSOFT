@@ -14,10 +14,10 @@ const About = () => {
           className="flex max-w-3xl flex-col justify-center mx-auto xl:mx-0"
         >
           <h2 className="text-4xl md:text-7xl xl:leading-[80px] tracking-[-2px] font-bold">
-            About Me
+            What I Do
           </h2>
           <p className="text-muted-foreground text-lg my-4 font-light mx-auto">
-            Welcome! I'm Hadia, a frontend Web Developer skilled in crafting
+            Welcome again! I'm Hadia, a frontend Web Developer skilled in crafting
             dynamic, user-friendly web applications using JavaScript frameworks
             & libraries.
             <br /> Transitioning from a different career, I've always been
