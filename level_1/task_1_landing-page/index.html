@@ -46,27 +46,28 @@
       <a href="/" class="hover:bg-orange-500 p-4">Contact</a>
       <a href="/" class="hover:bg-orange-500 p-4">Buy Now</a>
     </div>
-    <div class="relative">
-      <input class="bg-transparent relative w-24 h-8 border-slate-900 border-2 rounded-full">
-      <i class="absolute text-slate-900 left-2 top-2 fa-solid fa-magnifying-glass"></i>
-      <span class="absolute right-4 top-1">Search</span>
-      </input>
+    <div class="relative mr-6 my-2">
+      <input type="search" class="bg-purple-white shadow rounded border-0 p-3" placeholder="Search...">
     </div>
-
   </nav>
-  <nav class="md:hidden">
+  <nav class="flex justify-between px-12 items-center md:hidden bg-indigo-200 ">
       <!--mobile menu starts here-->
-      <ul class="bg-indigo-200">
+      <button><img src="./assets/logo.png" class="h-9 "/></button>
+      <div class="relative mr-6 my-2">
+        <input type="search" class="bg-purple-white shadow rounded border-0 p-3" placeholder="Search...">
+      </div>
+      <ul class="">
         <li>
           <a class="p-3"><i class="fa-solid fa-bars"></i></a>
-          <ul class="dropdown absolute bg-indigo-200 bg-opacity-60 z-50">
-            <li class="relative"><a class="p-5 text-white text-center text-xl hover:bg-indigo-200 hover:bg-opacity-60">Home</a></li>
-            <li class="relative"><a class="p-5 text-white text-center text-xl hover:bg-indigo-200 hover:bg-opacity-60">Blog</a></li>
-            <li class="relative"><a class="p-5 text-white text-center text-xl hover:bg-indigo-200 hover:bg-opacity-60">Page</a></li>
-            <li class="relative"><a class="p-5 text-white text-center text-xl hover:bg-indigo-200 hover:bg-opacity-60">Services</a></li>
-            <li class="relative"><a class="p-5 text-white text-center text-xl hover:bg-indigo-200 hover:bg-opacity-60">Testimonials</a></li>
-            <li class="relative"><a class="p-5 text-white text-center text-xl hover:bg-indigo-200 hover:bg-opacity-60">Contact</a></li>
-            <li class="relative"><a class="p-5 text-white text-center text-xl hover:bg-indigo-200 hover:bg-opacity-60">Buy Now</a></li>
+          <ul class="dropdown absolute right-6 bg-indigo-200 bg-opacity-60 z-50">
+            <li class="relative"><a class="p-5 text-orange-900 text-center text-lg hover:bg-indigo-200 hover:bg-opacity-60">Home</a></li>
+            <li class="relative"><a class="p-5 text-orange-900 text-center text-lg hover:bg-indigo-200 hover:bg-opacity-60">Blog</a></li>
+            <li class="relative"><a class="p-5 text-orange-900 text-center text-lg hover:bg-indigo-200 hover:bg-opacity-60">Page</a></li>
+            <li class="relative"><a class="p-5 text-orange-900 text-center text-lg hover:bg-indigo-200 hover:bg-opacity-60">Services</a></li>
+            <li class="relative"><a class="p-5 text-orange-900 text-center text-lg hover:bg-indigo-200 hover:bg-opacity-60">Testimonials</a></li>
+            <li class="relative"><a class="p-5 text-orange-900 text-center text-lg hover:bg-indigo-200 hover:bg-opacity-60">Contact</a></li>
+            <li class="relative"><a class="p-5 text-orange-900 text-center text-lg hover:bg-indigo-200 hover:bg-opacity-60">Buy Now</a></li>
+            <li class="relative"><a class="p-5 text-orange-900 text-center text-lg hover:bg-indigo-200 hover:bg-opacity-60">Request a consult</a></li>
           </ul>
         </li>
       </ul>
@@ -165,13 +166,21 @@
         <img src="./assets/service_three.jpg" class="h-[250px]" />
         <div class="absolute flex -bottom-6">
           <span class="relative z-20 left-8 bottom-1 w-10 h-10 rounded-full bg-orange-500 block"><i
-              class="fa-solid fa-dollar-sign absolute left-3 top-3"></i></span>
+              class="fa-solid fa-dollar-sign absolute left-4 top-3"></i></span>
           <p class="z-10 px-16 left-8 -bottom-4 bg-white shadow-xl rounded-full h-8">CUSTOM BUDGET</p>
         </div>
       </div>
     </div>
   </section>
-  <footer class="bg-slate-900 text-white text-center">2023 by Hadia Djadallah</footer>
+  <footer class="bg-slate-900 text-white text-center flex gap-4 justify-center items-center">
+    <div class="flex md:hidden">
+      <a href=""><i class="fa-brands fa-twitter border-white md:border-r-2 p-2"></i></a>
+      <a href=""><i class="fa-brands fa-instagram border-white  border-r-2 p-2"></i></a>
+      <a href=""><i class="fa-brands fa-youtube border-white  border-r-2 p-2"></i></a>
+      <a href=""><i class="fa-brands fa-pinterest border-white  border-r-2 p-2"></i><a />
+        <a href=""><i class="fa-brands fa-linkedin border-white  border-r-2 p-2"></i></a>
+    </div>
+    <div>2023 by Hadia Djadallah</div></footer>
 </body>
 
 </html>
