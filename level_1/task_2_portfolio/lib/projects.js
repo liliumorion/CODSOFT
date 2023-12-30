@@ -34,7 +34,7 @@ const projects = [
     description: "Unify is a platform that promotes charitable actions where users can exchange their daily items, ensuring community connections while making a positive social impact and encouraging sustainability.",
     image: unify.src,
     path: "https://unify-team-a.vercel.app/",
-    code: "https://unify-team-a.vercel.app/"
+    code: "https://github.com/liliumorion/Unify-team-a"
   },
 ];
 

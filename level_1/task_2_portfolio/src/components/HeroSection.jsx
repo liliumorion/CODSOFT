@@ -8,7 +8,7 @@ import Socials from "./Socials";
 
 function HeroSection() {
   return (
-    <main className="py-8 h-screen">
+    <main className="p-8 h-screen">
     <div className="container mx-auto ">
       <div className="flex justify-between gap-x-8">
         <div
@@ -27,7 +27,7 @@ function HeroSection() {
           <Socials />
           <div
             id="buttons"
-            className="flex flex-col gap-y-3 md:flex-row gap-x-3 mx-auto xl:mx-0 mb-2 md:mb-6"
+            className="flex gap-y-3 md:flex-row gap-x-3 mx-auto xl:mx-0 mb-2 md:mb-6"
           >
             <Link href="/#contact">
               <button className="flex justify-center items-center gap-2 rounded-full border-2 border-red-800 hover:text-white hover:bg-red-800 p-3">

@@ -7,7 +7,7 @@ const Projects = () => {
       id="projects"
       className="py-16 min-h-screen flex flex-col gap-10"
     >
-      <h2 className="text-4xl md:text-7xl xl:leading-[80px] tracking-[-2px] font-bold  text-center pl-6">
+      <h2 className="text-4xl md:text-6xl xl:leading-[80px] tracking-[-2px] font-bold  text-center pl-6">
         My Projects
       </h2>
       <div className="flex flex-col md:flex-row-reverse justify-center items-center gap-8">
@@ -29,12 +29,12 @@ const Projects = () => {
                 {project.description}
               </p>
               <div className="flex items-center gap-2">
-              <button className="  bg-white text-red-800 hover:text-black hover:border-2 hover:border-white hover:bg-transparent rounded-full p-1 w-24 text-base" >
+              <button className="hover:bg-white hover:text-red-800 text-black border-2 border-white bg-transparent rounded-full p-1 w-24 text-base" >
                 <Link href={project.path} target="_blank">
                   Preview
                 </Link>
               </button>
-              <button className=" bg-white text-red-800 hover:text-black hover:border-2 hover:border-white hover:bg-transparent rounded-full p-1 w-24 text-base" >
+              <button className="hover:bg-white hover:text-red-800 text-black border-2 border-white bg-transparent rounded-full p-1 w-24 text-base" >
                 <Link href={project.code} target="_blank">
                   Code
                 </Link>

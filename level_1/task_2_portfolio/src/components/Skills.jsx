@@ -39,7 +39,7 @@ const Skills = () => {
       {
         breakpoint: 720,
         settings: {
-          slidesToShow: 3,
+          slidesToShow: 4,
           slidesToScroll: 1,
           initialSlide: 2,
         },
@@ -47,7 +47,7 @@ const Skills = () => {
       {
         breakpoint: 550,
         settings: {
-          slidesToShow: 2,
+          slidesToShow: 3,
           slidesToScroll: 1,
           initialSlide: 2,
         },
@@ -56,11 +56,11 @@ const Skills = () => {
   };
 
   return (
-    <section id="skills" className="pt-16 xl:py-16 md:h-screen flex flex-col items-center gap-10">
-      <h2 className="text-4xl md:text-7xl xl:leading-[80px] tracking-[-2px] font-bold pl-6">
+    <section id="skills" className="py-16 px-8 min-h-screen flex flex-col items-center gap-10">
+      <h2 className="text-4xl md:text-6xl xl:leading-[80px] tracking-[-2px] font-bold pl-6">
             My Skills
           </h2>
-      <div className="flex justify-center items-center gap-4 w-screen">
+      <div className="flex flex-col md:flex-row justify-center items-center gap-4 w-screen">
       
  <div>
         <Image src={img} height={400} width={400} className="h-[400px] w-[400px] -scale-x-100 p-4"/>

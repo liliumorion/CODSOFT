@@ -28,7 +28,7 @@ function MobileMenu() {
         } fixed flex-col justify-center w-screen h-screen top-0 left-0 bg-red-200 z-40`} onClick={handleClick}
       >
         
-        {links.map((link, index)=>(<Link href={link.path} key={index} className="py-8 text-center transition-all duration-500 hover:translate-x-1 text-4xl">{link.name}</Link>))}
+        {links.map((link, index)=>(<Link href={link.path} key={index} className="py-4 text-center transition-all duration-500 hover:translate-x-1 text-4xl hover:font-semibold">{link.name}</Link>))}
       </div>
       
     </nav>

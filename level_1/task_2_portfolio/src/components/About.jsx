@@ -6,14 +6,14 @@ const About = () => {
   return (
     <section
       id="about"
-      className="py-16 md:h-screen flex flex-col justify-between items-center lg:flex-row-reverse"
+      className="p-8 md:h-screen flex flex-col justify-between items-center lg:flex-row-reverse"
     >
       <div className="container mx-auto flex flex-col md:flex-row-reverse justify-between gap-x-8">
         <div
           id="text"
           className="flex max-w-3xl flex-col justify-center mx-auto xl:mx-0"
         >
-          <h2 className="text-4xl md:text-7xl xl:leading-[80px] tracking-[-2px] font-bold">
+          <h2 className="text-4xl md:text-6xl xl:leading-[80px] tracking-[-2px] font-bold">
             What I Do
           </h2>
           <p className="text-muted-foreground text-lg my-4 font-light mx-auto">

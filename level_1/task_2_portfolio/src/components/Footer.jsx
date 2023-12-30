@@ -1,19 +1,9 @@
-import Socials from "./Socials";
-
 function Footer() {
   return (
-    <footer className="bg-red-200 py-4">
-    <div className="container mx-auto">
-      <div className="flex flex-col justify-between items-center gap-2">
-        <Socials/>
-        <div>
-         2023&copy; Copyright | CODSOFT.
-      </div>
-      </div>
-      
-    </div>
-  </footer>
-  )
+    <footer className="flex flex-col justify-between items-center gap-2 bg-red-200 py-4">
+      2023&copy; Copyright | CODSOFT.
+    </footer>
+  );
 }
 
 export default Footer;
