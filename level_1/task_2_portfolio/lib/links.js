@@ -12,10 +12,6 @@ const links = [
     name: "Projects",
   },
   {
-    path: "/#achievements",
-    name: "Achievements",
-  },
-  {
     path: "/#blogs",
     name: "Blogs",
   },

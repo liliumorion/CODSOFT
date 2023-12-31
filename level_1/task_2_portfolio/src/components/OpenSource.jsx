@@ -25,19 +25,25 @@ function OpenSource() {
             key={project.id}
             className="w-96 h-52 rounded-xl shadow-3xl bg-slate-800 flex flex-col justify-between gap-4 text-white p-4"
           >
-              <div className="flex items-center gap-2 text-lg font-bold">
-                <RiGitRepositoryLine />{" "}
-                <Link href={project.code} target="_blank" className="tracking-wider underline">{project.title}</Link>
-              </div>
-              <div className="flex flex-col gap-2 font-light self-start h-20">
-                <p className="text-lg">{project.description}</p>
-              </div>
-              <div className="flex items-center gap-2">
-<IoGitBranchOutline/>
-  <span>{project.fork}</span>
-  <FaRegStar/>
-  <span>{project.star}</span> 
-</div>
+            <div className="flex items-center gap-2 text-lg font-bold">
+              <RiGitRepositoryLine />{" "}
+              <Link
+                href={project.code}
+                target="_blank"
+                className="tracking-wider underline"
+              >
+                {project.title}
+              </Link>
+            </div>
+            <div className="flex flex-col gap-2 font-light self-start h-20">
+              <p className="text-lg">{project.description}</p>
+            </div>
+            <div className="flex items-center gap-2">
+              <IoGitBranchOutline />
+              <span>{project.fork}</span>
+              <FaRegStar />
+              <span>{project.star}</span>
+            </div>
           </div>
         ))}
       </div>
