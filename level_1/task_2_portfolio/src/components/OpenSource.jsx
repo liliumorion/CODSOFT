@@ -14,7 +14,7 @@ function OpenSource() {
         Open Source
       </h2>
       <div className="px-12 flex flex-col justify-center items-center gap-4">
-        <p className="text-center">
+        <p className=" text-lg font-medium text-center">
           If you're interested in being a contributor in open source like me,
           check out the following suggestions:
         </p>
@@ -29,7 +29,7 @@ function OpenSource() {
                 <RiGitRepositoryLine />{" "}
                 <Link href={project.code} target="_blank" className="tracking-wider underline">{project.title}</Link>
               </div>
-              <div className="flex flex-col gap-2 font-light self-start bg-red-500">
+              <div className="flex flex-col gap-2 font-light self-start h-20">
                 <p className="text-lg">{project.description}</p>
               </div>
               <div className="flex items-center gap-2">
