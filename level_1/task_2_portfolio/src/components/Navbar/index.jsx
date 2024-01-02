@@ -5,7 +5,7 @@ import links from "../../../lib/links.js";
 
 function Navbar() {
   return (
-     <header className="fixed flex justify-between items-center top-0 z-50 transition-all w-full bg-red-200 bg-opacity-40 px-8 pt-2 ">
+     <header className="fixed flex justify-between items-center top-0 z-50 transition-all w-full bg-red-200 bg-opacity-40 px-16 pt-2 ">
       <div>
           <Link href="/">
           <Image src="/assets/long logo.png" alt="logo" width={200} height={100}/>

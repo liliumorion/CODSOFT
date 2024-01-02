@@ -8,9 +8,9 @@ function OpenSource() {
   return (
     <section
       id="openSource"
-      className="py-16 px-8 min-h-screen flex flex-col items-center gap-10"
+      className="pt-16 min-h-screen flex flex-col items-center gap-8"
     >
-      <h2 className="text-4xl md:text-6xl xl:leading-[80px] tracking-[-2px] font-bold pl-6">
+      <h2 className="text-4xl text-center md:text-6xl xl:leading-[80px] tracking-[-2px] font-bold pl-6">
         Open Source
       </h2>
       <div className="px-12 flex flex-col justify-center items-center gap-4">
@@ -23,7 +23,7 @@ function OpenSource() {
         {openSourceProjects.map((project) => (
           <div
             key={project.id}
-            className="w-96 h-52 rounded-xl shadow-3xl bg-slate-800 flex flex-col justify-between gap-4 text-white p-4"
+            className="w-96 h-52 rounded-xl shadow-3xl bg-slate-800 flex flex-col justify-between text-white p-4"
           >
             <div className="flex items-center gap-2 text-lg font-bold">
               <RiGitRepositoryLine />{" "}

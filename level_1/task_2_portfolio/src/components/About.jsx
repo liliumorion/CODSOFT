@@ -6,7 +6,7 @@ const About = () => {
   return (
     <section
       id="about"
-      className="p-8 md:h-screen flex flex-col justify-between items-center lg:flex-row-reverse"
+      className="min-h-screen flex flex-col justify-between items-center lg:flex-row-reverse"
     >
       <div className="container mx-auto flex flex-col md:flex-row-reverse justify-between gap-x-8">
         <div

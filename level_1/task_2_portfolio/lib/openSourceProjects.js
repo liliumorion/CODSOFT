@@ -18,11 +18,11 @@ const openSourceProjects = [
   },
   {
     id: 3,
-    title: "CubeFlyer",
-    description: "A template repo for making group contributions to the CubeFlyer game.",
-    fork: 26,
-    star: 8,
-    code: "https://github.com/MarcusOtter/CubeFlyer"
+    title: "Orbit",
+    description: "Collection of useful integrations & components for the Astro ecosystem.",
+    fork: 6,
+    star: 202,
+    code: "https://github.com/codiume/orbit"
   }
 ];
 

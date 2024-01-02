@@ -5,7 +5,7 @@ const Projects = () => {
   return (
     <section
       id="projects"
-      className="py-16 min-h-screen flex flex-col gap-10"
+      className="pt-16 min-h-screen flex flex-col gap-10"
     >
       <h2 className="text-4xl md:text-6xl xl:leading-[80px] tracking-[-2px] font-bold  text-center pl-6">
         My Projects
